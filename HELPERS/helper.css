@@ -1,0 +1,85 @@
+.full{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.enter-text {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.name-1 {
+	display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+        }
+.mail {
+	display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+    
+}
+
+.mess {
+	display: flex;
+	margin-left: 50px;
+    margin-top: 50px;
+}
+.name-1 textarea {
+	min-width: 380px;
+	height: 50px;
+	background-color: #D5DADF;
+}
+.buttom {
+	display: flex;
+	/*margin-left: 50px;
+    margin-top: 50px; */
+
+}
+
+.mail textarea {
+	display: flex;
+	min-width: 380px;
+	height: 50px;
+    background-color: #D5DADF;
+}
+.mess textarea {
+	display: flex;
+	min-width: 810px;
+	height: 150px;
+	background-color: #D5DADF;
+}
+
+.buttom button {
+	min-width: 810px;
+	height: 100px;
+	background-color: #D5DADF;
+	margin-top: 50px;
+	margin-left: 50px;
+	background-color: #F44747;
+	color: white;
+}
+
+.black-4 {
+   display: flex;
+}
+
+p {
+	margin-left: 900px;
+	padding-left: 35px;
+	align-items: center;
+	line-height: 2.5;
+}
+
+.black-4 p {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #685B5B;
+	width: 35vw;
+	height: 416px;
+	color: white;
+	margin-top: -415px;
+	font-size: 14pt;
+}

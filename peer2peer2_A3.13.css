@@ -1,0 +1,554 @@
+body {
+	/*background-color: #EEEAEA;/*цвет фона -СЕРЫЙ*/
+	/*height: 500px;/*111*/
+}
+.wt{
+	background-color: #EEEAEA; /*делаю белый фон за заголовко*/
+}
+
+header {
+	display: flex;
+	box-sizing: border-box;/*используется для блочной модели. выч-ет размер блока*/
+	margin-left: 3vw;/*отступы слева и справа от края экрана*/
+	margin-right: 3vw;
+	align-items: center;
+	justify-content: center;
+    min-height: 89px;/*минимальная высота черной рамки*/
+    background-color: #000000;
+}
+
+.site-menu {
+	text-align: center;
+}
+
+.site-menu a {
+display: inline-block;
+text-decoration: none; /*отменяет подчеркивание*/
+color: #ffffff; /*#EEEAEA; /*цвет букв*/
+font-weight: bold; /*буквы жирные*/
+padding: 35px 85px; /*отступ между надписями*/
+}
+/*заголовки краснеют*/
+.site-menu a:hover {
+	background-color: #ff3f40; /*цвет бегунка*/
+	opacity: 0.9;
+}
+
+.name {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: #EEEAEA;
+}
+
+.wrapp {
+	display: flex;
+	padding-top: 100px;
+	flex-direction: column;
+	width: 50vw;
+}
+
+.zagol {
+	font-weight: bold;
+	font-size: 35px;
+	margin-left: 50px;
+	width: 50vw;
+}
+
+.text {
+font-size: 20px;
+margin-left: 50px;
+max-width: 30vw; /*максимальная ширина текста*/
+margin-bottom: 50px;/*отступ от кнопки*/
+opacity: 0.8;  /*прозрачность текста*/
+font-size: 16pt;
+}
+
+.cont-1 {
+	box-sizing: content-box;/*размер блока кнопки*/
+	color: #ffffff;
+	font-size: 18px;
+	display: inline-block;
+	background-color: #ff3f40;
+	width: 227px; /*ширина кнопки*/
+	padding: 16px 0;
+	text-align: center; /*ваыравнивает текст внутри элемента - кнопка*/
+	text-decoration: none;
+	border-radius: 5px; /*скругление уголков рамки*/
+	margin-bottom: 75px;
+	margin-left: 50px; /*отступ слева на 50  пикселей*/
+}
+.video-image {
+	display: flex;
+	flex: 1 1;
+	padding-top: 100px;/*отступ от верха */
+	margin-right: 30px;
+	width: 40vw;
+	height: auto;
+	padding-bottom: 50px;
+
+}
+ 
+                    /*начинаем DO UOU KNOW WE CAN*/
+.main-wrap {
+	display: flex;
+}
+
+.services {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+}
+
+.services-lead-wrapper {
+	flex: 1 1 350px;/* Свойство flex совмещает в себе три свйоства grow shrink и basis. Первые два позволяют сказать, что флекс элемент может расширятсья и сжиматься. Третье задает базовую ширину, которая расчитывается до всего остального */
+}
+
+.services-heading {
+    bottom: 5px;
+	margin-bottom: 27px;
+	width: 450px;
+	margin-left: 50px;
+	padding-top: 106px;
+	font-size: 30px;
+	text-transform: uppercase;
+	opacity: 0.8;
+}
+
+.learn-more {
+	display: inline-block;
+    border: 2px solid #e34761; /* Параметры рамки */
+    color: #e34761;
+    background: white; /* Цвет фона */
+    font-size: 14px; /* Размер текста */
+    padding: 5px 20px; /* Поля вокруг текста */
+    border-radius: 5px; /*скругление уголков рамки*/
+    padding: 16px 16px;
+    font-size: 22px;
+	text-decoration: none;
+    margin-left: 50px; /*отступ слева на 50  пикселей*/
+    margin-bottom: 50px;
+    width: 227px; /*ширина кнопки*/
+    text-align: center; /*ваыравнивает текст внутри элемента - кнопка*/
+}
+                     /*начинаем 2-ю часть*/
+.services-2 {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.item-2 {/*размещаем надписи квадратом*/
+   display: flex;
+    flex: 1 1 250px;
+    flex-wrap: wrap;
+	margin-bottom: auto;
+	margin-left: 250px;
+	margin-right: 100px;
+	font-size: 15pt;
+	opacity: 0.85;
+}
+
+.item-2 > h3::before {/*размещаем иконки над текстом*/
+	display: flex;
+	width: 41px;
+	height: 41px;
+	margin-bottom: 23px; /*расстояние от иконки до текста заголовка*/
+}
+
+.item-2 > .management::before {
+	content: url('images/service-1.png');
+}
+.item-2 > .ux::before {
+	content: url('images/service-2.png');
+}
+.item-2 > .branding::before {
+	content: url('images/service-3.png');
+}
+.item-2 > .animation::before {
+	content: url('images/service-4.png');
+}
+             /*НАЧИНАЕМ FEATURE PRODUCTS*/
+.line {
+	opacity: 0.4; 	margin-left: 120px;
+	margin-right: 120px; 	margin-top: 100px;
+}
+
+.line-2 {
+	margin-right: 42vw;
+	margin-left: 42vw;
+	margin-top: 50px;
+	height: 3px;
+	background-color: #F20E0E;
+}
+
+.name-1 {
+	display: flex; 
+	text-decoration: none; 
+}
+
+.wrapp-1 {
+	display: flex; 	
+	flex-direction: column; 
+}
+
+.feat-prod {
+	margin-top: 100px;
+	align-self: center;
+	font-size: 32pt;
+	opacity: 0.9;
+}
+
+.lor-ip {
+	text-align: center;
+	margin-top: 35px;
+	margin-left: 35vw;
+	margin-right: 35vw;
+	font-size: 16pt;
+	opacity: 0.85;
+}
+
+.site-menu2 {
+	text-align: center;
+}
+
+.site-menu2 a {
+	display: inline-block;
+text-decoration: none; /*отменяет подчеркивание*/
+color: #2C2525; /*#EEEAEA; /*цвет букв*/
+font-size: 22pt; /*буквы жирные*/
+padding: 100px 25px 100px 25px; /*отступ между надписями*/
+opacity: 0.9;
+}
+
+.site-menu2 a:hover {
+	color: #ff3f40; /*цвет бегунка*/
+	opacity: 0.9;
+	text-decoration: underline;
+}
+          /* НАЧИНАЕМ РАЗМЕЩЕНИЕ 8-МИ КАРТИНОК*/
+.wrapp-2 {
+	display: flex; /*ВЫСТРАИВАЕМ КАРТИНКИ ПО ГОРИЗОНТАЛИ*/
+	flex-wrap: wrap; /*картинки начинают переноситься на другую строку*/
+}
+
+.item-3 {
+	flex: 1 1 250px;
+	margin: 5px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.item-3 > img {
+	width: 90%;
+}
+      /*MEET OUR TEAM*/
+.name-2 {
+	display: flex; 
+	text-decoration: none; 
+}
+
+.wrapp-3 {
+	display: flex; 	
+	flex-direction: column; 
+}
+
+.our-team {
+	margin-top: 120px;
+	font-size: 32pt;
+	opacity: 0.75;
+	margin-left: 50px;
+}
+
+.lor-ip1 {
+	margin-top: 30px;
+	margin-left: 50px;
+	width: 440px;
+	font-size: 12pt;
+	opacity: 0.85;
+}
+
+.line-3 {
+	margin-left: 50px;
+	width: 145px;
+	margin-top: 30px;
+	height: 3px;
+	background-color: #F20E0E;
+}
+/*НАЧИНАЕМ ВЫСТРАИВАТЬ КАРТИНКИ СОТРУДНИКОВ*/
+.team-wrapp{  /*оющая обертка для всей группы*/
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    position: relative;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.man-photo {/* РАЗМЕРЫ И ПОЗИЦИОНИРОВАНИЕ ФОТО МУЖИКА*/
+    width: 350px;
+    height: 470px;
+    margin-left: 50px;
+    margin-right: 70px;
+    background-color: #F7A6A6;
+}
+
+.man-info { /*РАЗМЕРЫ И ПОЗИЦИОНИРОВАНИЕ ИНФОРМАЦИИ О МУЖИКЕ*/
+    position: absolute;
+    max-width: 550px;
+    top: -30px;
+    left: 520px;
+}
+
+.man-info > h2 {/*ПАРМЕТРЫ ИМЕНИ МУЖИКА*/
+	font-size: 30pt;
+	opacity: 0.75;	
+}
+
+.man-info > p {/*ПАРАМЕТРЫ ИНФОРМАЦИИ О МУЖИКЕ*/
+	font-size: 14pt;
+}
+
+.socials {/*СОЦИАЛЬНЫЕ СЕТИ*/
+font-size: 16pt;
+margin-top: 25px;/* отступ от верхнего текста*/
+}
+
+.socials > a {
+	text-decoration: none;
+	margin-right: 30px;/*расстояние между надписями*/
+	margin-top: 5px;
+	color: black;
+}
+
+.socials a:hover{/*ПОДЧЕРКИВАНИЕ СОЦИАЛЬНЫХ  СЕТЕЙ*/
+text-decoration: underline;
+} 
+/*ВЫСТРАИВАНИЕ ФОТО ДЕВУШЕК*/
+.girls-wrapp {
+	display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.girls {
+	position: relative;
+    margin-top: 18px;
+    margin-right: 18px;
+    margin-left: 50px;
+}
+
+.girls-photo {
+	display: block;
+    width: 180px;
+    height: 200px;
+    background-color: #d4dce680;
+}
+/*ДЕЛАЕМ ЧЕРНЫЙ ПОИСКОВИК*/
+.black {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #3F3939;
+	width: 100%;
+	height: 500px;
+	flex-direction: column;
+	align-items: center;
+}
+
+.design {
+	color: white;
+	font-size: 32pt;
+	padding-top: 55px;
+}
+
+.design-1 {
+      color: white;
+      padding-top: -10px;
+}
+
+.poisk {
+   padding-top: 55px;
+}
+/* РАЗМЕРЫ ПОИСКОВОЙ СТРОКИ И КНОПКИ SUBSCRIBE*/
+input {
+  width: 450px;
+  height: 75px;
+  padding-left: 15px;
+  border-radius: 5px;
+  border: none;
+  background: #F9F0DA;
+  margin-right: 15px;
+}
+
+button {
+background-color: #F44747;
+border-radius: 5px;
+border: none;
+width: 150px;
+height: 75px;
+color: white;
+}
+/*НАЧИНАЕМ GET IN TOUCH*/
+.name-2_1 {
+	display: flex; 
+	text-decoration: none; 
+}
+
+.wrapp-3_1 {
+	display: flex; 	
+	flex-direction: column; 
+}
+
+.our-team1 {
+	margin-top: 120px;
+	font-size: 32pt;
+	opacity: 0.75;
+	margin-left: 150px;
+}
+.line-3_1 {
+	margin-left: 150px;
+	width: 145px;
+	margin-top: 30px;
+	height: 3px;
+	background-color: #F20E0E;
+}
+
+.lor-ip2 {
+	display: flex;
+	margin-left: 150px;
+      max-width: 40vw;
+      font-size: 13pt;
+      padding-bottom: 100px;
+}
+
+/*ДЕЛАЕМ ВВОД ИНФОРМАЦИИ*/
+
+.full{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.enter-text {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.name-1_1 {
+	display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+        }
+.mail {
+	display: flex;
+    margin-left: 40px;
+    margin-top: 50px;
+    
+}
+
+.mess {
+	display: flex;
+	margin-left: 50px;
+    margin-top: 50px;
+}
+.name-1_1 textarea {
+	min-width: 387px;
+	height: 50px;
+	background-color: #D5DADF;
+}
+.buttom {
+	display: flex;
+	/*margin-left: 50px;
+    margin-top: 50px;*/ 
+
+}
+
+.mail textarea {
+	display: flex;
+	min-width: 387px;
+	height: 50px;
+    background-color: #D5DADF;
+}
+.mess textarea {
+	display: flex;
+	min-width: 820px;
+	height: 150px;
+	background-color: #D5DADF;
+}
+
+.buttom button {
+	min-width: 820px;
+	height: 100px;
+	background-color: #D5DADF;
+	margin-top: 50px;
+	margin-left: 50px;
+	background-color: #F44747;
+	color: white;
+}
+
+.black-4 {
+   display: flex;
+}
+
+/*p {
+	margin-left: 900px;
+	padding-left: 35px;
+	align-items: center;
+	line-height: 2.5;
+}*/
+
+.black-4 p {
+	/*display: flex;*/
+	flex-wrap: wrap;
+	background-color: black;
+	width: 35vw;
+	height: 416px;
+	color: white;
+	margin-top: -415px;
+	font-size: 14pt;
+
+margin-left: 975px;
+	padding-left: 35px;
+	align-items: center;
+	line-height: 2.5;
+
+
+}
+
+
+/*ДЕЛАЕМ ФУТЕР*/
+
+
+footer {
+	margin-top: 100px;
+    padding: 10px 2vw; /* Поля вокруг текста */
+	background-color: #141313;
+}
+.wrapper{
+	display: flex;
+    box-sizing: border-box;
+    padding: 19px 0 0;
+    color: #e0e0e0;
+    align-items: center;
+    justify-content: space-between; /*разносит по сторонам ТМ и соц сети*/
+    min-height: 100px; /*111*/
+}
+.copyright p {
+	color: #F2E5E5;
+	justify-content: flex-start;
+	flex:1 0 auto;/*111*/
+}
+
+.social-chains {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 0 0 auto; /*111*/
+}
+
+.social-chains a {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;	
+}
+
